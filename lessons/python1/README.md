@@ -38,14 +38,14 @@ _(Side question: how many milliseconds are there in a second?)_
 
 ### Try this
 
-* What happens if you remove calls to "sleep" function? 
+* What happens if you remove calls to `sleep` function? 
 * We instructed it to sleep for 300ms (milliseconds) after displaying each image. Try with different values for `sleep`. Which ones work best in your opinion?
 * What if you use different values for all of them?
 * What if you use some very small or very large value?
 
 ## 3. "for" loop
 
-Now, imagine we have a lot of images to display. Instead of writing the same code over and over to display and sleep let's try to use a list and loop over it using a "for" loop. Here's an example of a list and a loop.
+Now, imagine we have a lot of images to display. Instead of writing the same code over and over to display and sleep let's try to use a list and loop over it using a `for` loop. Here's an example of a list and a loop.
 
 ```py
 # ex3_for_loop.py 
@@ -68,7 +68,7 @@ Can you explain what's happening here?
 
 ## 4. Defining our own function
 
-You call different predefined functions here all the time. "display.show" and "sleep" are both examples of "functions" - something we can do over and over and easily re-use. You can create your own custom functions too and share it with your friends for use in their programs. Try wrapping our animation in a function which we'll call every time a button is pressed. Try the following:
+You call different predefined functions here all the time. `display.show` and `sleep` are both examples of "functions" - something we can do over and over and easily re-use. You can create your own custom functions too and share it with your friends for use in their programs. Try wrapping our animation in a function which we'll call every time a button is pressed. Try the following:
 
 ```py
 # ex4_custom_function.py 
